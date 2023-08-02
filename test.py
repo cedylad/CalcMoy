@@ -1,18 +1,18 @@
 def main():
-    # recolter une premiere note
-    note1 = int(input("Entrer la première note"))
+    # gather the first grade
+    note1 = int(input("Enter the first grade: "))
 
-    # recolter une deuxième note
-    note2 = int(input("Entrer la seconde note"))
+    # gather the second grade
+    note2 = int(input("Enter the second grade: "))
 
-    # recolter une trosième note
-    note3 = int(input("Entrer la dernière note"))
+    # gather the third grade
+    note3 = int(input("Enter the last grade: "))
 
-    # calculer la moyenne
+    # calculate the average
     result = (note1 + note2 + note3) / 3
 
-    # afficher le resultat
-    print("La moyenne est de " + str(result))
+    # display the result
+    print("The average is " + str(result))
 
 
 if __name__ == '__main__':
